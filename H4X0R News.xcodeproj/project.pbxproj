@@ -14,6 +14,8 @@
 		96F2B4DB2BFF8E5600B6EDFB /* H4X0R_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B4DA2BFF8E5600B6EDFB /* H4X0R_NewsTests.swift */; };
 		96F2B4E52BFF8E5600B6EDFB /* H4X0R_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B4E42BFF8E5600B6EDFB /* H4X0R_NewsUITests.swift */; };
 		96F2B4E72BFF8E5600B6EDFB /* H4X0R_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B4E62BFF8E5600B6EDFB /* H4X0R_NewsUITestsLaunchTests.swift */; };
+		96F2B4F52BFF9C0D00B6EDFB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B4F42BFF9C0D00B6EDFB /* NetworkManager.swift */; };
+		96F2B4F72BFFB08500B6EDFB /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2B4F62BFFB08500B6EDFB /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		96F2B4E02BFF8E5600B6EDFB /* H4X0R NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H4X0R NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F2B4E42BFF8E5600B6EDFB /* H4X0R_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsUITests.swift; sourceTree = "<group>"; };
 		96F2B4E62BFF8E5600B6EDFB /* H4X0R_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96F2B4F42BFF9C0D00B6EDFB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		96F2B4F62BFFB08500B6EDFB /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		96F2B4BD2BFF8E5300B6EDFB = {
 			isa = PBXGroup;
 			children = (
+				96F2B4F32BFF9BFB00B6EDFB /* Models */,
 				96F2B4C82BFF8E5300B6EDFB /* H4X0R News */,
 				96F2B4D92BFF8E5600B6EDFB /* H4X0R NewsTests */,
 				96F2B4E32BFF8E5600B6EDFB /* H4X0R NewsUITests */,
@@ -125,6 +130,15 @@
 				96F2B4E62BFF8E5600B6EDFB /* H4X0R_NewsUITestsLaunchTests.swift */,
 			);
 			path = "H4X0R NewsUITests";
+			sourceTree = "<group>";
+		};
+		96F2B4F32BFF9BFB00B6EDFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96F2B4F42BFF9C0D00B6EDFB /* NetworkManager.swift */,
+				96F2B4F62BFFB08500B6EDFB /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F2B4F52BFF9C0D00B6EDFB /* NetworkManager.swift in Sources */,
+				96F2B4F72BFFB08500B6EDFB /* PostData.swift in Sources */,
 				96F2B4CC2BFF8E5300B6EDFB /* ContentView.swift in Sources */,
 				96F2B4CA2BFF8E5300B6EDFB /* H4X0R_NewsApp.swift in Sources */,
 			);
